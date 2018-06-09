@@ -6,8 +6,6 @@ import java.awt.geom.Rectangle2D;
 import javax.swing.ImageIcon;
 
 public class EnemyAttack extends GameObject {
-    
-    private int enemyType;
 
     public EnemyAttack(int x, int y, int xSpeed, int ySpeed, Image img) {
         super(x, y, xSpeed, ySpeed, img);
@@ -15,10 +13,6 @@ public class EnemyAttack extends GameObject {
 
     public boolean hit(Shooter shooter) {
         return hitbox.intersects(shooter.getHitbox());
-    }
-    
-    public int getEnemyType() {
-        return enemyType;
     }
 
     public void paintComponent(Graphics g) {
