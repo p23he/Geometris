@@ -1,6 +1,5 @@
 package main;
 
-import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.FontFormatException;
@@ -22,9 +21,7 @@ import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
 import javax.swing.ImageIcon;
-import javax.swing.JButton;
 import javax.swing.JPanel;
-import javax.swing.border.LineBorder;
 import static main.StartScreen.frame;
 import static main.StartScreen.ge;
 import static main.StartScreen.halogenFont;
@@ -42,7 +39,6 @@ public class ControlPanel extends JPanel implements Runnable {
 
     private Clip musicClip;
     private Clip bossClip;
-    private boolean canPlaySound = true;
     private boolean paused = false;
     private boolean leftIsDown = false;
     private boolean rightIsDown = false;
@@ -256,14 +252,6 @@ public class ControlPanel extends JPanel implements Runnable {
         if (paused) {
             g.drawString("PAUSED", 1735, 150);
         }
-    }
-
-    public static void styleButton(JButton btn) {
-        btn.setOpaque(false);
-        btn.setContentAreaFilled(false);
-        btn.setFocusPainted(false);
-        btn.setBorder(new LineBorder(Color.decode("#613352")));
-        btn.setForeground(Color.decode("#613352"));
     }
 
     public void enemyDeath(int j) {
