@@ -12,8 +12,6 @@ import java.awt.Image;
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
 import java.io.File;
 import java.io.IOException;
 import javax.sound.sampled.AudioInputStream;
@@ -32,12 +30,8 @@ import javax.swing.WindowConstants;
 public class EndScreen {
 
     public final String FILEPATH = "src\\main\\resources\\";
-    private final Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
-    public final int MAX_X = Toolkit.getDefaultToolkit().getScreenSize().width;
-    public final int MAX_Y = Toolkit.getDefaultToolkit().getScreenSize().height;
     public static GraphicsEnvironment ge = null;
     public static Font halogenFont = null;
-    public static Font titleFont = null;
     public static JFrame frame = new JFrame();
     private ImagePanel panel = new ImagePanel(new ImageIcon(FILEPATH + "MenuBackground.png").getImage());
 
