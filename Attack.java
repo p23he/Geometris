@@ -32,7 +32,7 @@ public class Attack extends GameObject {
     public boolean hit(Enemy enemy) {
         return hitbox.intersects(enemy.getHitbox());
     }
-    
+
     public boolean hit(Boss boss) {
         return hitbox.intersects(boss.getHitbox());
     }
