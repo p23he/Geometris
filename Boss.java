@@ -41,11 +41,11 @@ public class Boss extends Enemy {
     public int getAttackRate() {
         return attackRate;
     }
-    
+
     public int getHealth() {
         return health;
     }
-    
+
     public void setHealth(int health) {
         this.health = health;
     }
