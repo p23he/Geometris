@@ -11,12 +11,12 @@ Here are some screenshots:
 
 Start Screen:
 
-https://ibb.co/ivmxry
+https://image.ibb.co/n2gmjJ/Start_Screen.png
 
 Gameplay:
 
-https://ibb.co/bPQe4J
+https://image.ibb.co/iM5e4J/Gameplay1.png
 
-https://ibb.co/fG3oyd
+https://image.ibb.co/hKVCPJ/Gameplay2.png
 
-https://ibb.co/hKyoyd
+https://image.ibb.co/bP1VBy/Gameplay3.png
