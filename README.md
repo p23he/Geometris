@@ -1,4 +1,4 @@
-# ICS4U1-Summative
+# Geometris
 Title of the Game: "Geometris"
 
 ACI Summative based on the game "1942".
