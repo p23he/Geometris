@@ -1,6 +1,6 @@
 # Geometris
 
-ACI Summative based on the game "1942".
+Arcade shooter game inspired by "Pew Pew"
 Put the "resources" folder inside the package, which you should call "main".
 Run from the "Start Screen" file.
 
